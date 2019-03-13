@@ -158,6 +158,21 @@
     background-color: rgb(255, 255, 240);
 }
 
+
+.light label>:not(span) input[type="file"] {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.light label>:not(span) input[type="file"]+span {
+    border: thin solid black;
+    padding: 5pt;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
 .light .switch {
     position: relative;
     display: inline-block;
