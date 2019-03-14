@@ -173,6 +173,10 @@
     cursor: pointer;
 }
 
+.light label>:not(span) input[type="file"]+span:active {
+    background-color: rgb(255, 255, 240);
+}
+
 .light .switch {
     position: relative;
     display: inline-block;
