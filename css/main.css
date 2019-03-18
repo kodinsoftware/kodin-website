@@ -35,9 +35,6 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 10pt;
     padding: 0 10em 0 10em;
-    background: url('../images/svg/background.svg') no-repeat right bottom;
-    background-size: 100% auto;
-    background-attachment: fixed;
 }
 
 .light hr {
